@@ -1,0 +1,37 @@
+{
+  "name": "axiomaticx",
+  "interface": {
+    "displayName": "Axiomatic AI"
+  },
+  "plugins": [
+    {
+      "name": "dmu",
+      "description": "Bayesian decision making under uncertainty for coding agents.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AxiomaticX/dmu.git",
+        "sha": "aa2415f843fece251bfc6bb04fac7255464d1356"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "axiph",
+      "description": "AxiPH engineering tools and workflows.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Axiomatic-AI/axi.git",
+        "sha": "52dc9fc9adbb033ff761879596e619e124ef1074",
+        "path": "./plugins/codex/axiph"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}
